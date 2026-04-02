@@ -15,7 +15,6 @@ const ALLOW_INSECURE_SSL = false;
 const TOKEN_LENGTH_BYTES = 16; // 32 hex chars
 const MAX_REMOTE_BYTES = 1024 * 1024 * 2; // 2 MB
 const CONFIG_NAME_SUFFIX = ' - North_VPN';
-const LOGO_URL = '/north%20logo.png';
 
 function base_url(): string
 {
@@ -174,3 +173,4 @@ function format_datetime(?string $value): string
 
     return date('Y-m-d H:i:s', $timestamp);
 }
+
